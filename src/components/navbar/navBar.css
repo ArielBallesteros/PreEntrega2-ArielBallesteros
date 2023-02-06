@@ -1,0 +1,72 @@
+.pageName {
+  font-size: larger;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure !important;
+}
+
+.navbar-brand p :hover {
+  transform: scale(1.05) !important;
+  transition: 0.3s !important;
+}
+
+.navbar img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+
+.navbar-brand {
+  margin: 0px;
+  color: azure !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarLogo {
+  margin: 0px;
+  color: azure !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand :hover {
+  transform: scale(1.05) !important;
+  transition: 0.3s !important;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  
+}
+.nav-item :hover {
+  transform: scale(1.05) !important;
+  transition: 0.3s !important;
+}
+
+.nav-link {
+  color: azure !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-outline-success {
+  color: azure !important;
+}
+.navbar-toggler {
+  color: azure !important;
+}
+.navbar-toggler-icon {
+  color: azure !important;
+  background-color: azure !important;
+  border-radius: 3px;
+}
