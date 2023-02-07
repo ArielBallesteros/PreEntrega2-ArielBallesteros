@@ -1,14 +1,24 @@
+import "./itemDetail.css";
 
 const ItemDetail = ({item})=>{
     return(
-        <div className="row my-5">
-            <div className="col-md-6 offset-md-3 text-center">
-                <img src={item.img} className="img-fluid" alt={item.nombre} />
-                <h1>{item.nombre}</h1>
-                <p>{item.desc}</p>
-                <p><b>${item.precio}</b></p>
+        <div className="row">
+        <div className="col">
+          <div className="card">
+            <img
+              className="img"
+              src={item.img}
+              alt="Card image cap"
+            />
+            <div className="card-body">
+              <h5 className="card-title">{item.nombre}</h5>
+              <p className="card-text">Precio: ${item.precio}</p>
+              <p className="card-text">Descripcion: {item.desc}</p>
+              <p className="card-text">Cantidad: {item.cantidad}</p>
             </div>
+          </div>
         </div>
+      </div>
     )
 }
 

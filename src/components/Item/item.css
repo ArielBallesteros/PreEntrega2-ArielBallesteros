@@ -1,0 +1,11 @@
+.card :hover {
+    transform: scale(1.05) !important;
+    transition: 0.3s !important; }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.675); }
+  

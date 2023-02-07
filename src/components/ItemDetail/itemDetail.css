@@ -1,0 +1,23 @@
+.card :hover {
+  transform: scale(1.05) !important;
+  transition: 0.3s !important;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.675);
+}
+
+.img{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
