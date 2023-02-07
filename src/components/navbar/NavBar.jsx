@@ -54,9 +54,9 @@ export function NavBar() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="">
-                  Ubicacion
-                </a>
+              <Link to ="">
+                Ubicacion
+               </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="">
